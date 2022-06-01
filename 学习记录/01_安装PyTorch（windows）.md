@@ -1,6 +1,6 @@
 # 学习Pytorch（一）
 
-## 1.安装Python+Pytorch（windows平台)
+## 安装Python+Pytorch（windows平台)
 
 ### （1）安装IDE+Python：<br/>
 下载安装[VScode IDE](https://code.visualstudio.com/)，并在仓库搜索Python安装(超级方便！其他IDE自行探索)<br/><br/>
