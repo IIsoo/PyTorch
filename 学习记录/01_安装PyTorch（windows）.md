@@ -1,4 +1,4 @@
-# Pytorch学习（一）
+# 学习Pytorch（一）
 
 ## 1.安装Python+Pytorch（windows平台)
 
