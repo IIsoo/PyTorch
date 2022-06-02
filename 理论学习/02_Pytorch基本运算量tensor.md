@@ -16,7 +16,7 @@ x
 
 
 
-可以看到我们直接输入了一个二维数组在tensor中<br/>
+可以看到我们直接输入了一个二维数组在tensor中<br/><br/>
 
 
 
@@ -57,7 +57,7 @@ a, b, c
 
 
 
-以上我们通过zeros、ones和arange构造了分别是全0全1和0-23的（2, 3, 4）的三个tensor<br/>
+以上我们通过zeros、ones和arange构造了分别是全0全1和0-23的（2, 3, 4）的三个tensor<br/><br/>
 
 
 
@@ -87,7 +87,7 @@ x.numel()
 
 
 
-上面的shape函数和numel()方法可以分别访问tensor的大小和元素个数<br/>
+上面的shape函数和numel()方法可以分别访问tensor的大小和元素个数<br/><br/>
 
 
 
@@ -106,7 +106,7 @@ x.reshape(2, 2, 2)
 
 
 
-reshape(num1, num2, ...)方法可以将tensor重构成参数内形式的N维数组<br/>
+reshape(num1, num2, ...)方法可以将tensor重构成参数内形式的N维数组<br/><br/>
 
 
 ### 4.tensor的计算
@@ -129,7 +129,7 @@ a + b, a - b, a * b, a / b, a ** b
 
 
 
-由结果可以很清楚的看到tensor之间的计算就是对应元素相计算<br/>
+由结果可以很清楚的看到tensor之间的计算就是对应元素相计算<br/><br/>
 
 但如果两个tensor的格式不同呢，请看下例：
 
@@ -162,7 +162,7 @@ a + b
 
 
 
-可以看到最终结果是一个3 * 2的tensor，我们发现当格式不同时tensor会利用广播机制延伸出最小可相加的格式<br/>
+可以看到最终结果是一个3 * 2的tensor，我们发现当格式不同时tensor会利用广播机制延伸出最小可相加的格式<br/><br/>
 
 
 
@@ -189,7 +189,7 @@ c
 
 
 
-利用cat方法可以将tensor在dim维度连结，当然还需要除dim以外的其他维度都相同<br/>
+利用cat方法可以将tensor在dim维度连结，当然还需要除dim以外的其他维度都相同<br/><br/>
 
 
 
@@ -207,7 +207,7 @@ torch.sum(c), torch.sum(c, dim=0)
 
 
 
-不设置dim参数会将所有元素求和，设置后会只将dim维度的进行求和<br/>
+不设置dim参数会将所有元素求和，设置后会只将dim维度的进行求和<br/><br/>
 
 
 
@@ -235,7 +235,7 @@ c[1], c[0:3], c[:, 0:2]
 
 
 
-我们通过tensor[num1:num2, num3:num4, ...]访问tensor中的从dim=0的num1到num2和dim=1的num3到num4的元素<br/>
+我们通过tensor[num1:num2, num3:num4, ...]访问tensor中的从dim=0的num1到num2和dim=1的num3到num4的元素<br/><br/>
 
 
 
@@ -276,7 +276,7 @@ c
 
 
 
-我们也可以对tensor元素进行单个改写或者批量改写<br/>
+我们也可以对tensor元素进行单个改写或者批量改写<br/><br/>
 
 
 
@@ -297,7 +297,7 @@ b
 
 
 
-numpy格式可以转换成tensor<br/>
+numpy格式可以转换成tensor<br/><br/>
 
 
 
