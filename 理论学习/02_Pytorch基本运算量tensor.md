@@ -59,6 +59,8 @@ a, b, c
 
 以上我们通过zeros、ones和arange构造了分别是全0全1和0-23的（2, 3, 4）的三个tensor
 
+
+
 ### 3.tensor的大小和格式
 
 
@@ -86,6 +88,7 @@ x.numel()
 
 
 上面的shape函数和numel()方法可以分别访问tensor的大小和元素个数
+
 
 
 ```python
@@ -159,6 +162,8 @@ a + b
 
 可以看到最终结果是一个3 * 2的tensor，我们发现当格式不同时tensor会利用广播机制延伸出最小可相加的格式
 
+
+
 tensor之间还可以进行连结
 
 
@@ -184,6 +189,8 @@ c
 
 利用cat方法可以将tensor在dim维度连结，当然还需要除dim以外的其他维度都相同
 
+
+
 还有求和方法sum
 
 
@@ -199,6 +206,7 @@ torch.sum(c), torch.sum(c, dim=0)
 
 
 不设置dim参数会将所有元素求和，设置后会只将dim维度的进行求和
+
 
 
 ### 5.tensor的访问
@@ -226,6 +234,7 @@ c[1], c[0:3], c[:, 0:2]
 
 
 我们通过tensor[num1:num2, num3:num4, ...]访问tensor中的从dim=0的num1到num2和dim=1的num3到num4的元素
+
 
 
 ```python
@@ -267,6 +276,8 @@ c
 
 我们也可以对tensor元素进行单个改写或者批量改写
 
+
+
 ### 6.tensor与其他格式之间的转换
 
 
@@ -285,6 +296,7 @@ b
 
 
 numpy格式可以转换成tensor
+
 
 
 ```python
