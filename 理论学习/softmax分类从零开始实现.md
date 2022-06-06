@@ -125,8 +125,7 @@ show_images(X.reshape(18, 28, 28), 2, 9, titles=get_fashion_mnist_labels(y));
 ```
 
 
-    
-![svg](output_14_0.svg)
+![output_14_0](https://user-images.githubusercontent.com/31993576/172077385-e2990532-ecd2-4397-8c2b-5749be08c7af.svg)
     
 
 
@@ -364,7 +363,8 @@ train_ch3(net, train_iter, test_iter, cross_entropy, num_epochs, updater)
 
 
     
-![svg](output_37_0.svg)
+![output_37_0](https://user-images.githubusercontent.com/31993576/172077410-c6b1ccc3-639a-469f-910f-276828a0b29d.svg)
+
     
 
 
@@ -387,7 +387,8 @@ predict_ch3(net, test_iter)
 
 
     
-![svg](output_39_0.svg)
+![output_39_0](https://user-images.githubusercontent.com/31993576/172077421-b9755504-4656-4b49-86a9-7310c1120d97.svg)
+
     
 
 
@@ -395,3 +396,5 @@ predict_ch3(net, test_iter)
 ```python
 
 ```
+
+这部分代码对我现在来说还是太过冗长复杂，我个人觉得对于初学者不太友好，大概明白其中重要代码作用即可，详解建议看实战项目中的线性分类模型
