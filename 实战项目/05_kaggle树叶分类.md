@@ -274,6 +274,7 @@ test_df.to_csv('result.csv', index=False, header=True)
 print(test_df.head())
 
 ```
-![image](https://user-images.githubusercontent.com/31993576/174486217-0c7ad9c6-53ff-4696-a9c4-9dcb9d5fceb6.png)
+![image](https://user-images.githubusercontent.com/31993576/174488957-316ed899-ace1-4eff-91f7-14c26eea6b7c.png)
+
 
 本次kaggle作业基本上经历了全套的读取图片、训练模型以及预测分类的过程，在结果出来后感觉非常高兴，但是验证集准确率不高，希望以后有所提升
